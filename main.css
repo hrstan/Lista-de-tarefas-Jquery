@@ -1,0 +1,57 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Single Day, sans-serif;
+    color: #bebebe;
+    zoom: 200%;
+}
+
+.container { 
+    margin: 0 auto; 
+    align-items: center; 
+    max-width: 400px;
+    background-color: #151515;
+}
+
+header { 
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid  #bebebe;;
+}
+
+.adicionar-tarefa { 
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+form { 
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+input, button { 
+    padding: 10px;
+}
+
+input { 
+   border:none;
+}
+
+button { 
+    background-color: #bebebe;;
+    border: none;
+    cursor: pointer;
+}
+
+ul { 
+    justify-content: center;
+    margin: 5px;
+    margin-left: 10%;
+    color: #bebebe;
+}
+li { 
+    list-style: decimal;
+    padding: 5px; 
+}
